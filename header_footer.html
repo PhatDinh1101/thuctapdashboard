@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Dashboard</title>
+     <link rel="stylesheet" href="/css/style.css">
+     <link rel="stylesheet" href="/css/chart.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+          integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+          integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <style></style>
+</head>
+
+<body>
+     <header>
+          <div class="banner">
+               <div class="logo">
+                    <a href="index.html"></a>
+                    <img src="/image/Logo.png" alt="" srcset="">
+               </div>
+               <div id="toggle" class="toggle">
+                    <img src="/image/Vector1.png" />
+               </div>
+               <nav class="header__right">
+                    <ul class="accordion">
+                         <li>
+                              <p class="link"><a href="#"><img src="/image/vietnam.png" alt="" /></a></p>
+
+                         </li>
+                         <li>
+                              <p class="link"><a href="#"><img src="/image/Bookmark.png" alt="" /></a></p>
+
+                         </li>
+                         <li>
+                              <p class="link"><a href="#" class="notification"><img src="/image/Message.png"
+                                             alt="" /><span class="badge">3</span></a></p>
+                              <ul class="submenu">
+                                   <li><a href="#">
+                                             <div class="info">
+                                                  <span>99</span>
+                                                  <p>Thông báo mới</p>
+                                             </div>
+                                        </a></li>
+                                   <li><a href="#">
+                                             <div class="noti">
+                                                  <div class="noti-img">
+                                                       <img src="/image/Avatar1.png" />
+                                                  </div>
+                                                  <div class="noti-info">
+                                                       <p>Thư mời tham gia chạy chiến
+                                                            CỰC HIẾM🔥ĐẮM CHÌM DEAL CHỐT DEAL </p>
+                                                       <span>26/04/2021</span>
+                                                  </div>
+                                             </div>
+                                        </a></li>
+                                   <hr class="hr_1">
+                                   <li><a href="#">
+                                             <div class="noti">
+                                                  <div class="noti-img">
+                                                       <img src="/image/Avatar2.png" />
+                                                  </div>
+                                                  <div class="noti-info">
+                                                       <p>Thư mời tham gia chạy chiến
+                                                            CỰC HIẾM🔥ĐẮM CHÌM DEAL </p>
+                                                       <span>26/04/2021</span>
+                                                  </div>
+                                             </div>
+                                        </a></li>
+                                   <hr class="hr_1">
+                                   <li><a href="#">
+                                             <div class="noti">
+                                                  <div class="noti-img">
+                                                       <img src="/image/Avatar3.png" />
+                                                  </div>
+                                                  <div class="noti-info">
+                                                       <p>Thư mời tham gia chạy chiến
+                                                            CỰC HIẾM🔥ĐẮM CHÌM DEAL </p>
+                                                       <span>26/04/2021</span>
+                                                  </div>
+                                             </div>
+                                        </a></li>
+                                   <hr class="hr_1">
+                                   <li><a href="#">
+                                             <div class="noti">
+                                                  <div class="noti-img">
+                                                       <img src="/image/Avatar4.png" />
+                                                  </div>
+                                                  <div class="noti-info">
+                                                       <p>Thư mời tham gia chạy chiến
+                                                            CỰC HIẾM🔥ĐẮM CHÌM DEAL </p>
+                                                       <span>26/04/2021</span>
+                                                  </div>
+                                             </div>
+                                        </a></li>
+                                   <hr class="hr_1">
+                                   <li><a href="#">
+                                             <div class="see-more">
+                                                  <span>Xem tất cả</span>
+                                             </div>
+                                        </a></li>
+                              </ul>
+                         </li>
+
+                         <li>
+                              <p class="link"><a href="#" class="notification"><img style="margin: -7px;"
+                                             src="/image/Button-icon (1).png" alt="" /><span class="badge">9+</span></a>
+                              </p>
+                              <ul class="submenu">
+                                   <li><a href="#">
+                                             <div class="info">
+                                                  <span>4</span>
+                                                  <p>Thư mới</p>
+                                             </div>
+                                        </a></li>
+                                   <li><a href="#">
+                                             <div class="message">
+                                                  <div class="message-img">
+                                                       <img src="/image/Avatar.png" />
+                                                  </div>
+                                                  <div class="message-info">
+                                                       <p>Thư mời tham gia chạy chiến</p>
+
+                                                  </div>
+                                             </div>
+                                        </a></li>
+                                   <hr class="hr_1">
+                                   <li><a href="#">
+                                             <div class="message">
+                                                  <div class="message-img">
+                                                       <img src="/image/Avatar8.png" />
+                                                  </div>
+                                                  <div class="message-info">
+                                                       <p>Thư mời tham gia chạy chiến</p>
+                                                  </div>
+                                             </div>
+                                        </a></li>
+                                   <hr class="hr_1">
+                                   <li><a href="#">
+                                             <div class="message">
+                                                  <div class="message-img">
+                                                       <img src="/image/Avatar7.png" />
+                                                  </div>
+                                                  <div class="message-info">
+                                                       <p>Thư mời tham gia chạy chiến</p>
+
+                                                  </div>
+                                             </div>
+                                        </a></li>
+                                   <hr class="hr_1">
+                                   <li><a href="#">
+                                             <div class="message">
+                                                  <div class="message-img">
+                                                       <img src="/image/Avatar6.png" />
+                                                  </div>
+                                                  <div class="message-info">
+                                                       <p>Thư mời tham gia chạy chiến</p>
+
+                                                  </div>
+                                             </div>
+                                        </a></li>
+                                   <hr class="hr_1">
+                                   <li><a href="#">
+                                             <div class="message">
+                                                  <div class="message-img">
+                                                       <img src="/image/Avatar5.png" />
+                                                  </div>
+                                                  <div class="message-info">
+                                                       <p>Thư mời tham gia chạy chiến</p>
+
+                                                  </div>
+                                             </div>
+                                        </a></li>
+                                   <hr class="hr_1">
+                                   <li><a href="#">
+                                             <div class="see-more">
+                                                  <span>Xem tất cả</span>
+                                             </div>
+                                        </a></li>
+                              </ul>
+                         </li>
+
+                         <li>
+                              <p class="link"><a href="#"><img style="margin: -3px;" src="/image/Profile.png"
+                                             alt="" /></a>
+                              </p>
+                              <ul class="submenu">
+                                   <li><a href="#">
+                                             <div style="display: flex;" class="user-info">
+                                                  <div class="img-user">
+                                                       <img src="/image/img.png" />
+                                                  </div>
+                                                  <div class="info2">
+                                                       <span>tuyethlb</span>
+                                                       <p>tuyet.hlb254@gmail.com</p>
+                                                  </div>
+                                             </div>
+                                        </a></li>
+                                   <li class="subemenu_li"><a href="#">Thông tin cá nhân</a></li>
+                                   <li class="subemenu_li"><a href="#">Loại traffice</a></li>
+                                   <li class="subemenu_li"><a href="#">Thông tin thanh toán</a></li>
+                                   <li class="subemenu_li"><a href="#">API key</a></li>
+                                   <hr class="hr_2">
+                                   <li class="subemenu_li"><a href="#">AT Accademy</a></li>
+                                   <li class="subemenu_li"><a href="#">AT IQ</a></li>
+                                   <li class="subemenu_li"><a href="#">AT Award</a></li>
+                                   <hr class="hr_2">
+                                   <li class="subemenu_li"><a href="#">Sign Out</a></li>
+                              </ul>
+                         </li>
+                    </ul>
+               </nav>
+          </div>
+          <div class="menu_bar">
+               <div class="menu__logo">
+                    <a href="index.html">
+                         <img src="/image/Logo.png" alt="" srcset="">
+                    </a>
+                    <i class="bi bi-x"></i>
+               </div>
+               <ul class="menu">
+                    <li><a href="index.html">
+                              <div class="menu__icon">
+                                   <img src="/image/bubble_chart-outline.png" alt="" srcset="">
+                              </div>
+                              <div class="menu__text">
+                                   Tổng quan
+                              </div>
+                         </a></li>
+                    <li><a href="#">
+                              <div class="menu__icon">
+                                   <img src="/image/campaign-outlinew.png" alt="" srcset="">
+                              </div>
+                              <div class="menu__text">
+                                   Chiến dịch
+                              </div>
+                         </a></li>
+                    <li><a href="#">
+                              <div class="menu__icon">
+                                   <img src="/image/Group.png" alt="" srcset="">
+                              </div>
+                              <div class="menu__text">
+                                   Báo cáo
+                              </div>
+                              <div class="menu__dropdown">
+                                   <img src="/image/keyboard_arrow_down.png" alt="" srcset="">
+                              </div>
+                         </a>
+                         <ul class="menu__submenu">
+                              <li><a href="order.html">Đơn hàng</a></li>
+                              <li><a href="#">Click - Traffic</a></li>
+                              <li><a href="#">Chiến dịch</a></li>
+                              <li><a href="#">Báo cáo UTM</a></li>
+                         </ul>
+                    </li>
+                    <li><a href="#">
+                              <div class="menu__icon">
+                                   <img src="/image/settings-outline.png" alt="" srcset="">
+                              </div>
+                              <div class="menu__text">
+                                   Công cụ
+                              </div>
+                              <div class="menu__dropdown">
+                                   <img src="/image/keyboard_arrow_down.png" alt="" srcset="">
+                              </div>
+                         </a></li>
+                    <li><a href="#">
+                              <div class="menu__icon">
+                                   <img src="/image/monetization_on-outline.png" alt="" srcset="">
+                              </div>
+                              <div class="menu__text">
+                                   Thanh toán
+                              </div>
+                              <div class="menu__dropdown">
+                                   <img src="/image/keyboard_arrow_down.png" alt="" srcset="">
+                              </div>
+                         </a>
+                         <ul class="menu__submenu">
+                              <li><a href="revenue.html">Doanh thu</a></li>
+                              <li><a href="historyorder.html">Lịch sử thanh toán</a></li>
+                         </ul>
+                    </li>
+                    <li><a href="#">
+                              <div class="menu__icon">
+                                   <img src="/image/info-outline.png" alt="" srcset="">
+                              </div>
+                              <div class="menu__text">
+                                   Trợ giúp
+                              </div>
+                              <div class="menu__dropdown">
+                                   <img src="/image/keyboard_arrow_down.png" alt="" srcset="">
+                              </div>
+                         </a></li>
+               </ul>
+          </div>
+     </header>
+     <section class="filtercheck">
+          <div class="datePicker">
+               <div class="icon_calendar">
+                    <img src="/image/calendar_today.png" alt="calendar">
+               </div>
+               <div class="input_calender">
+                    <input id="myDatePicker" type="text" name="daterange" value="" />
+               </div>
+          </div>
+          <div class="camp">
+               <div class="icon_camp">
+                    <img src="/image/campaign-outlinew.png" alt="calendar">
+               </div>
+               <div class="select_camp">
+                    <select>
+                         <option value="chiendich">Chiến dịch</option>
+                         <option value="">test</option>
+                         <option value="">text</option>
+                    </select>
+               </div>
+          </div>
+          <div class="btn_box_search">
+               <button onclick="setValue()" class="btnSearch" type="submit" placeholder="Tìm kiếm">
+                    <img src="image/search.png" alt="" />
+                    <span>Tìm kiếm</span>
+               </button>
+               <div class="input-box">
+                    <input type="text" placeholder="search...">
+               </div>
+
+          </div>
+     </section>
+     <main>
+     </main>
+
+     <div class="foooter">Bản quyền 2020 thuộc công ty<a href="#"> Beauty Box</a></div>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
+     crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js/dist/chart.umd.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-chart.js/1.1.1/angular-chart.js"></script>
+<script src="js/script.js"></script>
+<script src="js/chart.js"></script>
+</script>
+
+</html>

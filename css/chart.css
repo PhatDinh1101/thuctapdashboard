@@ -1,0 +1,44 @@
+.chartCard {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.chartBox {
+  width: 700px;
+  padding: 20px;
+  background: white;
+}
+.chart {
+  width: 100% !important;
+  height: 300px !important;
+}
+
+ul.note {
+  display: flex;
+  justify-content: space-around;
+}
+
+ul.note li {
+  width: 25%;
+  border-right: 1px solid #efedf2;
+  text-align: center;
+}
+
+ul.note li span {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 120%;
+}
+
+ul.note li p {
+  color: rgba(24, 24, 25, 0.42);
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+ul.note li:last-child {
+  border: none;
+}

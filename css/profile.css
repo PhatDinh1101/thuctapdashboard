@@ -1,0 +1,62 @@
+main nav {
+  margin: 2rem 10rem;
+  background: #fff;
+  border: 2px solid #c2c0c0;
+  border-radius: 10px;
+}
+ul.nav {
+  display: flex;
+  justify-content: center;
+}
+
+ul.nav li button {
+  color: #5e5e5e;
+  font-weight: 600;
+}
+
+.wrapper {
+  height: 300px;
+  width: 300px;
+  position: relative;
+  border: 1px solid #000;
+  border-radius: 50%;
+  background-size: 100% 100%;
+  margin: 10px auto;
+  overflow: hidden;
+}
+.wrapper img {
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+}
+.wrapper .my_file {
+  position: absolute;
+  bottom: 0;
+  outline: none;
+  color: transparent;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 15px 120px;
+  cursor: pointer;
+  transition: 0.5s;
+  background: rgba(0, 0, 0, 0.5);
+}
+.wrapper .my_file::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.wrapper .my_file::before {
+  content: "\f030";
+  font-family: fontAwesome;
+  font-size: 50px;
+  color: #fff;
+  display: inline-block;
+  -webkit-user-select: none;
+}
+.wrapper .my_file::after {
+  content: 'Update';
+  font-family: 'arial';
+  font-weight: bold;
+  color: #fff;
+  display: block;
+  top: 70px;
+}

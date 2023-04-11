@@ -1,0 +1,94 @@
+footer {
+  width: 98%;
+  background-color: white;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(225, 224, 224);
+}
+
+.table_revenue {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid rgb(225, 224, 224);
+}
+
+.table_revenue tr th,
+.table_revenue tr td {
+  text-align: left;
+  padding: 20px;
+}
+.table_revenue tr th {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 14px;
+  line-height: 140%;
+  color: rgba(24, 24, 25, 0.9);
+}
+.table_revenue tr th:first-child,
+.table_revenue tr td:first-child {
+  width: 15%;
+  text-align: left;
+}
+.table_revenue tr th:last-child {
+  width: 5%;
+}
+.table_revenue tr th,
+.table_revenue tr td {
+  text-align: right;
+}
+.table_revenue tr td {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+}
+.table_revenue tr td:nth-child(3) .table_revenue tr:nth-child(odd) {
+  background-color: white;
+}
+.table_revenue tr:nth-child(even) {
+  background-color: #eee;
+}
+.table_revenue tr:last-child {
+  background: #9e4ae8;
+}
+.table_revenue tr:last-child td {
+  color: #fff !important;
+}
+.foooter {
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  text-decoration: none;
+}
+.foooter a {
+  text-decoration: none;
+  color: #009ae1;
+}
+.policy_payment {
+     padding: 2rem 1.5rem;
+}
+.policy_payment .policy {
+     background: #f1f1f1;
+     padding: 1rem;
+}
+.policy_payment .policy h4 {
+     padding-bottom: 10px;
+}
+/* responsive */
+@media screen and (max-width: 768px) {
+  footer {
+    width: 100%;
+    margin: 20px 0;
+    padding: 0;
+  }
+  .table_revenue {
+    width: 100%;
+    overflow-y: hidden;
+  }
+  .policy_payment .policy {
+     width: 100%;
+  }
+}
